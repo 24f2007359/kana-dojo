@@ -60,10 +60,15 @@ export default function ClickEffectRenderer() {
 
     // ── Spawn burst ───────────────────────────────────────────────────────────
     const BURST_COUNT = 10;
+    const MAX_PARTICLES = 150; // ~15 full bursts; caps fillrate at ~375k px/frame @ 50px
 
     const spawnAt = (x: number, y: number) => {
       const bmp = getEmojiBitmap(emoji, 48);
       if (!bmp) return;
+
+      // If adding a full burst would exceed the cap, evict the oldest particles first
+      const overflow = particles.current.length + BURST_COUNT - MAX_PARTICLES;
+      if (overflow > 0) particles.current.splice(0, overflow);
       for (let i = 0; i < BURST_COUNT; i++) {
         const angle = (i / BURST_COUNT) * Math.PI * 2 + Math.random() * 0.35;
         const speed = Math.random() * 1.6 + 0.8;
