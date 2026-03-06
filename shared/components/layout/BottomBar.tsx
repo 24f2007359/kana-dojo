@@ -1,5 +1,5 @@
 'use client';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faDiscord,
@@ -12,7 +12,6 @@ import {
   GitBranch,
   Type,
   LucideIcon,
-  Star,
 } from 'lucide-react';
 import clsx from 'clsx';
 import { useClick } from '@/shared/hooks/useAudio';
@@ -59,8 +58,6 @@ const socialLinks: SocialLink[] = [
   // }
 ];
 
-const ENABLE_STATS_DESIGN = false; // Toggle to switch between old and new stats design
-
 const MobileBottomBar = () => {
   const { playClick } = useClick();
   const { theme, font } = useThemePreferences();
@@ -72,22 +69,6 @@ const MobileBottomBar = () => {
   const [isPatchNotesOpen, setIsPatchNotesOpen] = useState(false);
   const [isThemeOpen, setIsThemeOpen] = useState(false);
   const [isFontOpen, setIsFontOpen] = useState(false);
-  const [githubStars, setGithubStars] = useState<number | null>(null);
-  const [discordOnline, setDiscordOnline] = useState<number | null>(null);
-
-  useEffect(() => {
-    if (!ENABLE_STATS_DESIGN) return;
-
-    fetch('/api/community-stats')
-      .then(res => res.json())
-      .then(data => {
-        if (data.githubStars !== undefined) setGithubStars(data.githubStars);
-        if (data.discordOnline !== undefined)
-          setDiscordOnline(data.discordOnline);
-      })
-      .catch(err => console.error('Failed to fetch community stats:', err));
-  }, []);
-
   const handleClick = (url: string) => {
     playClick();
     window.open(url, '_blank', 'noopener');
@@ -183,24 +164,6 @@ const MobileBottomBar = () => {
                     />
                   )}
                 </button>
-                {ENABLE_STATS_DESIGN &&
-                  link.icon === faGithub &&
-                  githubStars !== null && (
-                    <span className='ml-0.5 flex items-center gap-1 text-sm text-(--secondary-color) select-none'>
-                      <Star
-                        size={12}
-                        className='fill-yellow-400 text-yellow-500'
-                      />
-                      {githubStars.toLocaleString()}
-                    </span>
-                  )}
-                {ENABLE_STATS_DESIGN &&
-                  link.icon === faDiscord &&
-                  discordOnline !== null && (
-                    <span className='ml-0.5 text-sm text-(--secondary-color) select-none'>
-                      {discordOnline.toLocaleString()}
-                    </span>
-                  )}
               </div>
               {idx === 1 && socialLinks.length > 2 && (
                 <span className='text-sm text-(--secondary-color) select-none'>
