@@ -960,7 +960,7 @@
     "meaning": "Get angry. (Set 6)",
     "id": 107,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "手を抜く",
@@ -969,7 +969,7 @@
     "meaning": "Do less than one should. (Set 6)",
     "id": 108,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "目がない",
@@ -986,7 +986,7 @@
     "english": "Fast ears",
     "meaning": "Quick to hear news/gossip. (Set 6)",
     "id": 110,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
