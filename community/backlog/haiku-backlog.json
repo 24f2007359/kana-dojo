@@ -21,7 +21,7 @@
     "kigo": "Summer grasses (natsukusa)",
     "notes": "Reflects impermanence through a historical battlefield image.",
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "id": 3,
@@ -44,7 +44,7 @@
     "season": "Autumn",
     "kigo": "Harvest moon (meigetsu)",
     "notes": "Captures innocent longing through a domestic scene.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
