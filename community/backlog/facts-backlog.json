@@ -32,7 +32,7 @@
   {
     "id": 6,
     "fact": "There are over 5.5 million vending machines in Japan - one for every 23 people - selling everything from hot ramen to fresh eggs to underwear.",
-    "issued": true,
+    "issued": false,
     "completed": false
   },
   {
@@ -110,7 +110,7 @@
   {
     "id": 19,
     "fact": "Japanese convenience stores (konbini) are so advanced that over 70% of bills in Japan are paid there, not at banks.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -122,13 +122,13 @@
   {
     "id": 21,
     "fact": "Japan's oldest company, Kongō Gumi, was a construction company that operated continuously for 1,428 years (578-2006 CE) before being absorbed.",
-    "issued": true,
+    "issued": false,
     "completed": false
   },
   {
     "id": 22,
     "fact": "There's a Japanese word 'komorebi' (木漏れ日) specifically for sunlight filtering through leaves - no direct English translation exists.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -194,13 +194,13 @@
   {
     "id": 33,
     "fact": "Japanese toilet seats often have built-in bidets with heated seats, air dryers, and sound effects to mask embarrassing noises.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
     "id": 34,
     "fact": "There's a Japanese festival called 'Hadaka Matsuri' where thousands of nearly naked men compete to catch lucky charms thrown by priests.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -356,7 +356,7 @@
   {
     "id": 60,
     "fact": "Japan has an island called Okunoshima overrun by friendly wild rabbits - formerly a secret chemical weapons manufacturing site.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -404,13 +404,13 @@
   {
     "id": 68,
     "fact": "Japan pioneered the concept of 'mukbang' content but calls it 'tabehoudai' (food challenge) which predates Korean streaming.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
     "id": 69,
     "fact": "The Japanese word 'koi no yokan' (恋の予感) describes knowing you'll inevitably fall in love with someone you just met.",
-    "issued": true,
+    "issued": false,
     "completed": false
   },
   {
@@ -446,7 +446,7 @@
   {
     "id": 75,
     "fact": "The word 'enryo' (遠慮) describes polite restraint - like declining seconds even when hungry, to not be a burden.",
-    "issued": true,
+    "issued": false,
     "completed": false
   },
   {
@@ -506,13 +506,13 @@
   {
     "id": 85,
     "fact": "The word 'otsukaresama' (お疲れ様) literally means 'you're tired' but is used to acknowledge someone's hard work.",
-    "issued": false,
-    "completed": true
+    "issued": true,
+    "completed": false
   },
   {
     "id": 86,
     "fact": "Japan has had the same family on the Chrysanthemum Throne for over 2,600 years - the world's oldest continuous hereditary monarchy.",
-    "issued": true,
+    "issued": false,
     "completed": false
   },
   {
@@ -542,7 +542,7 @@
   {
     "id": 91,
     "fact": "There's a Japanese word 'shinpai' (心配) that describes worry with a sense of caring - unlike English, it's not purely negative.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -566,7 +566,7 @@
   {
     "id": 95,
     "fact": "There's a Japanese practice called 'goraiko' (御来光) - watching the sunrise from a mountain peak, especially on New Year's Day.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -614,7 +614,7 @@
   {
     "id": 103,
     "fact": "There's a Japanese word 'kenkyo' (謙虚) for humility so deep it rejects praise - considered one of the highest virtues.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -656,7 +656,7 @@
   {
     "id": 110,
     "fact": "Japan has 'maid cafes' where waitresses in maid costumes call customers 'Master' and draw cute pictures on their food.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -668,7 +668,7 @@
   {
     "id": 112,
     "fact": "Japan produces watermelons shaped like hearts and pyramids using special molds - purely for decorative gifting purposes.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -728,7 +728,7 @@
   {
     "id": 122,
     "fact": "Japan has 'anti-lonely death' services that check on elderly living alone and arrange their affairs if they pass away.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -746,7 +746,7 @@
   {
     "id": 125,
     "fact": "The word 'yoroshiku' (よろしく) has no direct translation - it's used for introductions, requests, and meaning 'please treat me well'.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -782,13 +782,13 @@
   {
     "id": 131,
     "fact": "There's a Japanese practice 'dogeza' (土下座) - bowing with forehead to floor - the deepest apology or request possible.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
     "id": 132,
     "fact": "Japan has 'gacha' machines that dispense random collectible toys for 100-500 yen - adults are as obsessed as children.",
-    "issued": true,
+    "issued": false,
     "completed": false
   },
   {
@@ -878,13 +878,13 @@
   {
     "id": 147,
     "fact": "There's a Japanese word 'tasogare' (黄昏) specifically for the golden hour at dusk when it's hard to recognize faces.",
-    "issued": true,
+    "issued": false,
     "completed": false
   },
   {
     "id": 148,
     "fact": "Japan has 'book-off' stores where you can sell and buy used manga, CDs, games, and electronics at bargain prices.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -962,19 +962,19 @@
   {
     "id": 161,
     "fact": "The concept 'doryoku' (努力) means hard work as a core value - success without effort is considered somehow lesser.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
     "id": 162,
     "fact": "Japan has 'pocky day' on November 11 (11/11) because the date looks like four Pocky sticks standing in a row.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
     "id": 163,
     "fact": "There's a Japanese word 'komorebi' (木漏れ日) for sunlight filtering through trees - there's no single English word for this.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1040,13 +1040,13 @@
   {
     "id": 174,
     "fact": "Japan has 'depachika' - basement food halls in department stores selling luxury foods from around the world.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
     "id": 175,
     "fact": "There's a Japanese word 'waku-waku' (わくわく) for excited anticipation - the tingly feeling of looking forward to something.",
-    "issued": true,
+    "issued": false,
     "completed": false
   },
   {
@@ -1058,7 +1058,7 @@
   {
     "id": 177,
     "fact": "The word 'tadaima' (ただいま) means 'I'm home' and is always answered with 'okaeri' (お帰り) - 'welcome back.'",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1082,7 +1082,7 @@
   {
     "id": 181,
     "fact": "The word 'kimochi' (気持ち) describes feelings so physical you can sense them in your body - mood embodied.",
-    "issued": true,
+    "issued": false,
     "completed": false
   },
   {
@@ -1232,7 +1232,7 @@
   {
     "id": 206,
     "fact": "Many Japanese supermarkets sell 'bento' at night with discount stickers that increase as closing time approaches.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1268,7 +1268,7 @@
   {
     "id": 212,
     "fact": "The Japanese word 'arigatai' (ありがたい) originally meant 'rare and precious', which is why it became associated with gratitude.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1346,7 +1346,7 @@
   {
     "id": 225,
     "fact": "Japan has a concept 'yakudoshi' (厄年) — unlucky ages — where people often visit shrines for purification blessings.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1364,7 +1364,7 @@
   {
     "id": 228,
     "fact": "The Japanese term 'matsuri' (祭り) broadly means festival, and many neighborhoods host their own with portable shrines ('mikoshi').",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1376,7 +1376,7 @@
   {
     "id": 230,
     "fact": "The Japanese word 'nagori' (名残) describes the lingering feeling when a season is ending — like the last strawberries of spring.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1442,7 +1442,7 @@
   {
     "id": 241,
     "fact": "Japan’s traditional paper, 'washi' (和紙), is so strong that it’s used for lanterns, umbrellas, and even interior walls.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1478,7 +1478,7 @@
   {
     "id": 247,
     "fact": "Japan’s 'michi-no-eki' (道の駅) are highway rest stops that double as local farmers’ markets and souvenir hubs.",
-    "issued": true,
+    "issued": false,
     "completed": false
   },
   {
@@ -1502,7 +1502,7 @@
   {
     "id": 251,
     "fact": "Japan has an art of arranging flowers called 'ikebana' (生け花), focusing on balance, line, and space rather than volume.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1514,7 +1514,7 @@
   {
     "id": 253,
     "fact": "Japan’s 'tachigui' culture means quick standing meals at noodle or sushi counters, especially around busy train stations.",
-    "issued": true,
+    "issued": false,
     "completed": false
   },
   {
@@ -1550,7 +1550,7 @@
   {
     "id": 259,
     "fact": "Japan has a summer custom of hanging 'furin' (風鈴) glass wind chimes to make homes feel cooler with their sound.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1712,13 +1712,13 @@
   {
     "id": 286,
     "fact": "The phrase 'osusowake' (お裾分け) means sharing a portion of something received, like produce or gifts.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
     "id": 287,
     "fact": "Japan’s 'yukata' are lightweight summer kimono made of cotton, often worn at festivals or firework shows.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
